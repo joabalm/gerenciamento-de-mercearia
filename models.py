@@ -5,14 +5,14 @@ class Categoria:
         self.categoria = categoria
 
 class Produtos:
-    def __init__(self, nome, preco, categoria):
-        self.nome = nome,
-        self.preco = preco,
+    def __init__(self, nome: str, preco: str, categoria: str):
+        self.nome = nome
+        self.preco = preco
         self.categoria = categoria
 
 class Estoque:
     def __init__(self, produto: Produtos, quantidade):
-        self.produto = produto,
+        self.produto = produto
         self.quantidade = quantidade
 
 class Venda:
